@@ -256,7 +256,7 @@ p{
    ========================================================================== */
 
 .form-section{
-  margin: 120px 5px 120px
+  margin: 120px 15px 120px
 }
 .form-section h2{
   text-align: center;
@@ -291,10 +291,7 @@ textarea{
   margin: 20px auto;
   width: 90%;
 }
-.checkbox-container{
-  display: flex;
-  justify-content: center
-}
+
 #checkbox-question{
   position: relative;
   top: 0px
@@ -307,7 +304,7 @@ textarea{
 }
 input[type='checkbox']{
    color: #a0a0a0;
-   margin: 4px
+   margin: 4px;
 }
 #submit-button{
   background-color: #a0a0a0;
