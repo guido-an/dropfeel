@@ -320,7 +320,7 @@ input[value="Pharma"] {
   right: 7px;
 }​
 
-#submit-button{
+button, [type="submit"]{
   background-color: #a0a0a0;
   color: #fff;
   width: 160px;
@@ -328,16 +328,16 @@ input[value="Pharma"] {
   border-radius: 4px;
   letter-spacing: 1px;
   font-weight: 500;
-  margin-top: 20px
+  margin-top: 20px;
+  
 }
-#submit-button:hover{
+button, [type="submit"]:hover{
   background-color: green;
   cursor: pointer
 }
 @media(min-width:1200px){
   .my-input {
     width: 40%;
-  
   }
 }
 /* ==========================================================================
