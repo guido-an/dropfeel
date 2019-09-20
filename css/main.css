@@ -124,12 +124,12 @@ p{
 
 .hero h1 {
   color: #030303;
-  font-size: 72px;
+  font-size: 62px;
   font-weight: 700;
 }
 .hero p {
   color: #a0a0a0;
-  font-size: 24px;
+  font-size: 22px;
   position: relative;
   bottom: 40px
 }
@@ -175,7 +175,14 @@ p{
   margin-bottom: 80px
   
 }
-
+@media(min-widht:1200px){
+  .hero h1 { 
+   font-size: 72px;
+  }
+  .hero p {
+    font-size: 24px
+  }
+}
 /* ==========================================================================
    LINEE DROPFEEL
    ========================================================================== */
