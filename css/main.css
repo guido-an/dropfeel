@@ -256,7 +256,7 @@ p{
    ========================================================================== */
 
 .form-section{
-  margin: 120px 0 120px
+  margin: 120px 5px 120px
 }
 .form-section h2{
   text-align: center;
@@ -335,10 +335,15 @@ input[type='checkbox']{
    .credits a{
      color: #a0a0a0;
      text-decoration: none;
-     text-align: right;
+     text-align: center;
      font-size: 14px;
      margin: 20px;
      display: block
+   }
+   @media(min-width:1200px){
+     .credits a{
+       text-align: right
+     }
    }
 
 /* ==========================================================================
