@@ -256,7 +256,7 @@ p{
    ========================================================================== */
 
 .form-section{
-  margin: 120px 15px 120px
+  margin: 120px 5px 120px
 }
 .form-section h2{
   text-align: center;
@@ -291,6 +291,15 @@ textarea{
   margin: 20px auto;
   width: 90%;
 }
+#aceitum-input,
+#aceiutm-text{
+  position: relative;
+  left: 4px
+}
+
+.checkbox-container div span:nth-child(1){
+  display: none
+}
 
 #checkbox-question{
   position: relative;
@@ -306,6 +315,11 @@ input[type='checkbox']{
    color: #a0a0a0;
    margin: 4px;
 }
+input[value="Pharma"] { 
+  position:relative;
+  right: 7px;
+}​
+
 #submit-button{
   background-color: #a0a0a0;
   color: #fff;

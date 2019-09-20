@@ -32,7 +32,7 @@
   <div class="divider"></div>
   <!-- ABOUT SECTION -->
   <section id="linee-dropfeel">
-    
+
     <p><span>Dropfeel offre soluzioni progettate per gestire, in modo semplice e pratico, esigenze generali e
         specifiche.
         Linee di prodotti specificatamente ideate per offrire soluzioni di qualità per le necessità ed i piccoli
@@ -74,34 +74,40 @@
   </section>
 
   <!-- CONTACT FORM -->
- <section class="form-section" id="contatti">
+  <section class="form-section" id="contatti">
     <h2>CONTATTI</h2>
     <p>Ne vuoi sapere di più? <br>Mettiti in contatto con noi e ti risponderemo il prima possibile.</p>
     <div class="form-container">
 
 
-    <form action="https://formspree.io/carucciguido@gmail.com" method="POST">
-     
-      <input type="text" name="nome" placeholder="Nome" class="my-input">
-      <input type="email" name="email" placeholder="Email" class="my-input">
-      <input type="tel" name="tel" placeholder="Telefono" class="my-input">
-      <p id="checkbox-question">A quale linea sei interessato?</p>
-      <div class="checkbox-container">
-        <input type="checkbox" name="linea" value="Diabetes"> <span>Diabetes</span>
-        <input type="checkbox" name="linea" value="Oral care"><span>Oral care</span>
-        <input type="checkbox" name="linea" value="Pharma"><span>Pharma</span>
-        <input type="checkbox" name="linea" value="Aceitum"><span>Aceitum</span>
-      </div>
-      <textarea name="messaggio" id="" cols="30" rows="10" placeholder="Messaggio" class="my-input"></textarea>
+      <form action="https://formspree.io/carucciguido@gmail.com" method="POST">
 
-      <input type="submit" value="INVIA" id="submit-button">
-    </form>
-  </div>
-</section>
-<footer class="credits">
-  
-  <a href="https://www.vanillamarketing.it/"><p>Created by Vanilla Marketing</p></a>
-</footer>
+        <input type="text" name="nome" placeholder="Nome" class="my-input">
+        <input type="email" name="email" placeholder="Email" class="my-input">
+        <input type="tel" name="tel" placeholder="Telefono" class="my-input">
+        <p id="checkbox-question">A quale linea sei interessato?</p>
+        <div class="checkbox-container">
+          <div>
+            <input type="checkbox" name="linea" value="Diabetes"> <span>Diabetes</span>
+            <input type="checkbox" name="linea" value="Oral care"><span>Oral care</span>
+          </div>
+          <div>
+            <input type="checkbox" name="linea" value="Pharma"><span>Pharma</span>
+            <input type="checkbox" name="linea" value="Aceitum" id="aceitum-input"><span id="aceiutm-text"> Aceitum</span>
+          </div>
+        </div>
+        <textarea name="messaggio" id="" cols="30" rows="10" placeholder="Messaggio" class="my-input"></textarea>
+
+        <input type="submit" value="INVIA" id="submit-button">
+      </form>
+    </div>
+  </section>
+  <footer class="credits">
+
+    <a href="https://www.vanillamarketing.it/">
+      <p>Created by Vanilla Marketing</p>
+    </a>
+  </footer>
 
 
 
