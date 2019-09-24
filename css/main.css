@@ -225,7 +225,7 @@ p{
    #pharma-divider{
      border: 1px solid #F08D30;
    }
-   #aceitum-divider{
+   #acetium-divider{
      border: 1px solid #368898;
    }
 
@@ -291,7 +291,7 @@ textarea{
   margin: 20px auto;
   width: 90%;
 }
-#aceitum-input,
+#acetium-input,
 #aceiutm-text{
   position: relative;
   left: 4px
@@ -335,9 +335,17 @@ button, [type="submit"]:hover{
   background-color: green;
   cursor: pointer
 }
+#gdpr{
+  margin-top: 60px
+}
+#gdpr a{
+  color:#222;
+}
 @media(min-width:1200px){
-  .my-input {
+  .form-section {
     width: 40%;
+    margin: 0 auto;
+    padding: 40px 0 80px
   }
 }
 /* ==========================================================================
@@ -357,6 +365,29 @@ button, [type="submit"]:hover{
      }
    }
 
+
+/* ==========================================================================
+   GDPR PAGE
+   ========================================================================== */
+#gdpr-section{
+  padding: 0 10px 60px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 40px;
+}
+#gdpr-section p{
+  color: #a0a0a0;
+}
+#gdpr-section strong{
+  color: #222 !important
+}
+@media(min-width:1200px){
+  #gdpr-section{
+    width: 80%;
+    margin: 0 auto
+    
+  }
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
